@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ParseSsrSubscribe:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aff15bae-2cfa-4711-8efd-d3b18e979380" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XLhZZinc4G7TsUoDzbaVDzU7H5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-codec-1.9.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunManager" selected="Application.Subscribe">
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Subscribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Subscribe" />
+      <module name="ParseSsrSubscribe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s" />
+      <module name="ParseSsrSubscribe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="t" />
+      <module name="ParseSsrSubscribe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Subscribe" />
+        <item itemvalue="Application.s" />
+        <item itemvalue="Application.t" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="204" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580832895255">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="505" y="204" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1549.840@0.0.1549.840" timestamp="1580832895255" />
+    <state x="473" y="161" key="FileChooserDialogImpl" timestamp="1580832641975">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="473" y="161" key="FileChooserDialogImpl/0.0.1549.840@0.0.1549.840" timestamp="1580832641975" />
+    <state width="1506" height="216" key="GridCell.Tab.0.bottom" timestamp="1580883657758">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1506" height="216" key="GridCell.Tab.0.bottom/0.0.1549.840@0.0.1549.840" timestamp="1580883657758" />
+    <state width="1506" height="216" key="GridCell.Tab.0.center" timestamp="1580883657758">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1506" height="216" key="GridCell.Tab.0.center/0.0.1549.840@0.0.1549.840" timestamp="1580883657758" />
+    <state width="1506" height="216" key="GridCell.Tab.0.left" timestamp="1580883657758">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1506" height="216" key="GridCell.Tab.0.left/0.0.1549.840@0.0.1549.840" timestamp="1580883657758" />
+    <state width="1506" height="216" key="GridCell.Tab.0.right" timestamp="1580883657758">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="1506" height="216" key="GridCell.Tab.0.right/0.0.1549.840@0.0.1549.840" timestamp="1580883657758" />
+    <state x="255" y="0" key="SettingsEditor" timestamp="1580832898362">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="255" y="0" key="SettingsEditor/0.0.1549.840@0.0.1549.840" timestamp="1580832898362" />
+    <state width="384" height="288" key="javadoc.popup.new" timestamp="1580883180084">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state width="384" height="288" key="javadoc.popup.new/0.0.1549.840@0.0.1549.840" timestamp="1580883180084" />
+    <state x="410" y="30" key="new project wizard" timestamp="1580881086846">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="410" y="30" key="new project wizard/0.0.1549.840@0.0.1549.840" timestamp="1580881086846" />
+    <state x="432" y="191" key="run.anything.popup" timestamp="1580833830436">
+      <screen x="0" y="0" width="1549" height="840" />
+    </state>
+    <state x="432" y="191" key="run.anything.popup/0.0.1549.840@0.0.1549.840" timestamp="1580833830436" />
+  </component>
+</project>
