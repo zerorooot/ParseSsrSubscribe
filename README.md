@@ -5,6 +5,8 @@
 ```
 wget https://github.com/zerorooot/ParseSsrSubscribe/releases/download/1.0/ParseSsrSubscribe.jar
 java -jar ParseSsrSubscribe.jar "https://xxxxx"
+或者
+java -jar ParseSsrSubscribe.jar "ssr://xxxxx"
+或者
+java -jar ParseSsrSubscribe.jar "/home/ubuntu/new/t.txt"
 ```
-
-
