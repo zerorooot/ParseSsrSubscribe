@@ -8,16 +8,15 @@ import java.util.*;
  * @Date: 2020/2/4 23:52
  */
 public class Subscribe {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         if (args.length == 0) {
-            System.out.println("请输入网址");
+            System.out.println("请输入网址或ssr连接或文件路径");
             return;
         }
-        System.out.println("连接网页中.........");
-        ArrayList<String> ssrLink = getWeb(args[0]);
-        System.out.println("解析网页完成，一共有"+ssrLink.size()+"个节点");
-        String path = System.getProperty("user.dir");
+        ArrayList<String> ssrLink = handle(args[0]);
 
+
+        String path = System.getProperty("user.dir");
         new File(path + File.separator + "config").mkdirs();
         System.out.println("创建目录 "+path + File.separator + "config");
         for (int i = 0; i < ssrLink.size(); i++) {
@@ -28,6 +27,36 @@ public class Subscribe {
         }
         System.out.println("完成，请到 "+path + File.separator + "config"+" 查看");
     }
+
+
+    private static ArrayList<String> handle(String args) throws IOException {
+        ArrayList<String> ssrLink = new ArrayList<>();
+        //网页
+        if ("http".equalsIgnoreCase(args.substring(0, 4))) {
+            System.out.println("连接网页中.........");
+             ssrLink = getWeb(args);
+            System.out.println("解析网页完成，一共有"+ssrLink.size()+"个节点");
+        }
+        if ("ssr".equalsIgnoreCase(args.substring(0, 3))) {
+            ssrLink.add(args.replace("ssr://", ""));
+        }
+        if (new File(args).exists()) {
+            System.out.println("读取文件中.........");
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(args)));
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                if (!"".equals(line)) {
+                    ssrLink.add(line.replace("ssr://", ""));
+                }
+            }
+            System.out.println("读取文件中完成，一共有"+ssrLink.size()+"个节点");
+        }
+
+
+        return ssrLink;
+    }
+
+
 
     /**
      * 输入 订阅地址
