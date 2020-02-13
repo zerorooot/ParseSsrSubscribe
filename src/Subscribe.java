@@ -10,7 +10,7 @@ import java.util.*;
 public class Subscribe {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
-            System.out.println("请输入网址或ssr连接或文件路径");
+            System.out.println("请输入网址或ssr链接或文件路径");
             return;
         }
         ArrayList<String> ssrLink = handle(args[0]);
@@ -115,7 +115,7 @@ public class Subscribe {
         try {
             ssrMap.put("server_port", ssrFinal.get(1));
         } catch (Exception e) {
-            System.out.println("连接解析失败，连接内容：" + ssrLink);
+            System.out.println("链接解析失败，连接内容：" + ssrLink);
             System.out.println("解析结果："+ssrRaw);
             System.exit(0);
         }
